@@ -1,0 +1,25 @@
+h4{
+    color: white;
+}
+
+.option {
+    background-color: #ede4e0 ;
+    border-color: #9f8772;
+    color: #9f8772;
+    border-width: 1px;
+    height: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cadastrar{
+    background-color: #9f8772;
+    border-color: #ede4e0;
+    border-width: 3px;
+    height: 80px; 
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 3px 3px 2px 1px #ede4e0;
+}

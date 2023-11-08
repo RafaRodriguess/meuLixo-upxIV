@@ -1,0 +1,25 @@
+.titulo{
+    color: #665a48;
+}
+
+p{
+    margin: 0;
+}
+
+.results{
+    background-color: white;
+    opacity: 0.7;
+    box-shadow: 5px 5px 2px 1px rgb(179, 178, 178);
+}
+
+.name{
+    background-color:#ede4e0;
+}
+
+.btn-buscar{
+    background-color: #ede4e0;
+    margin-right: 12px;
+}
+.btn-voltar{
+    background-color: #ede4e0;
+}

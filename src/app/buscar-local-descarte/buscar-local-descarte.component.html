@@ -1,0 +1,27 @@
+
+    <!-- <form action=""> -->
+        <div class="row">
+            <label class="pt-5 titulo" for="material"><h2>Digite o material que deseja descartar:</h2></label>
+            <div class="col-8">
+                <input type="text" class="form-control pt-3" id="material">
+            </div>
+            <div class="col-4">
+                <button class="btn btn-lg btn-buscar" type="submit" id="btnsubmit" (click)=setExibirTrue()>Buscar</button>
+                <button class="btn btn-lg btn-voltar" type="submit" id="btnback" (click)=voltarPagina()>Voltar</button>
+            </div>
+        </div>
+        <div *ngIf=(exibirResultados) class="mt-5">
+            <div *ngFor="let recebedor of recebedores">
+                <div class="row mt-3">
+                    <div class="col-5 results">
+                        <div class="name mt-4"><h2>{{recebedor.nome}}</h2></div>
+                    </div>
+                    <div class="col-5 results">
+                        <p>{{recebedor.telefone}}</p>
+                        <p>{{recebedor.email}}</p>
+                        <p>{{recebedor.endereco}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- </form> -->

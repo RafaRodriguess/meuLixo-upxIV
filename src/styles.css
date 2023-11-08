@@ -1,0 +1,8 @@
+body{   
+    background-image: url('./img/background-img.png');
+    background-repeat: no-repeat;
+    background-color: #c8dbbe;
+    height: 500px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

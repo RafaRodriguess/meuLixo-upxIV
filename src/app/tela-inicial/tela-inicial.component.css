@@ -1,0 +1,18 @@
+h1, h3 {
+    color: #665a48;
+}
+
+.option {
+    background-color: #ede4e0 ;
+    border-color: #9f8772;
+    color: #9f8772;
+    border-width: 5px;
+    height: 100px;
+    margin-top: 50px;  
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+.menu {
+    padding-top: 100px;
+}

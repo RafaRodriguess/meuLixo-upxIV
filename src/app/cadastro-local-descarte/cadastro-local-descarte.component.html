@@ -1,0 +1,120 @@
+<div class="pai">
+<div class="row fundoTela">
+  <div class="mb-3 row">
+    <label class="pt-5 titulo"><h2>DADOS PESSOAIS</h2></label>
+
+    <label for="labelName" class="col-sm-auto col-form-label">Nome</label>
+    <div class="col-sm">
+      <input
+        type="text"
+        class="form-control"
+        id="inputName"
+        [(ngModel)]="nome"
+      />
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="" class="col-sm-auto col-form-label">Email</label>
+    <div class="col-sm">
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail"
+        [(ngModel)]="email"
+      />
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="inputEmail" class="col-sm-auto col-form-label">Telefone</label>
+    <div class="col-sm">
+      <input
+        type="number"
+        class="form-control"
+        id="inputPhone"
+        [(ngModel)]="telefone"
+      />
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="inputEmail" class="col-sm-auto col-form-label">Rua</label>
+    <div class="col-sm">
+      <input
+        type="text"
+        class="form-control"
+        id="inputStreet"
+        [(ngModel)]="rua"
+      />
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="inputEmail" class="col-sm-auto col-form-label">Número</label>
+    <div class="col-sm">
+      <input
+        type="number"
+        class="form-control"
+        id="inputAddressNumber"
+        [(ngModel)]="numero"
+      />
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="inputEmail" class="col-sm-auto col-form-label">CEP</label>
+    <div class="col-sm">
+      <input type="text" class="form-control" id="inputCEP" [(ngModel)]="cep" />
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="inputEmail" class="col-sm-auto col-form-label"
+      >Complemento</label
+    >
+    <div class="col-sm">
+      <input
+        type="text"
+        class="form-control"
+        id="inputComplement"
+        [(ngModel)]="complemento"
+      />
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="inputEmail" class="col-sm-auto col-form-label">Cidade</label>
+    <div class="col-sm">
+      <input
+        type="text"
+        class="form-control"
+        id="inputCity"
+        [(ngModel)]="cidade"
+      />
+    </div>
+  </div>
+  <div class="row btnAdicionarEndereco">
+    <a class="btn option" (click)="addEndereco()">+ Adicionar Endereço</a>
+  </div>
+</div>
+<div class="row fundoTela">
+  <div class="mb-3 row">
+    <label class="pt-5 titulo"><h2>Materiais aceitos</h2></label>
+    <div class="mb-3 row"><h4>Filtrar Categoria</h4></div>
+
+  <div class="checkMateriais">
+    <ul class="checklist">
+        <li class="checklist-item mb-3"><input type="checkbox" class="checklist-checkbox" [(ngModel)]="materiais.celular"> Celular</li>
+        <li class="checklist-item mb-3"><input type="checkbox" class="checklist-checkbox" [(ngModel)]="materiais.monitor"> Monitor</li>
+        <li class="checklist-item mb-3"><input type="checkbox" class="checklist-checkbox" [(ngModel)]="materiais.tablet"> Tablet</li>
+        <li class="checklist-item mb-3"><input type="checkbox" class="checklist-checkbox" [(ngModel)]="materiais.notebook"> Notebook</li>
+        <li class="checklist-item mb-3"><input type="checkbox" class="checklist-checkbox" [(ngModel)]="materiais.mouse"> Mouse</li>
+        <li class="checklist-item mb-3"><input type="checkbox" class="checklist-checkbox" [(ngModel)]="materiais.radio"> Radio</li>
+        <li class="checklist-item mb-3"><input type="checkbox" class="checklist-checkbox" [(ngModel)]="materiais.relogio"> Relogio</li>
+      </ul>
+  </div>
+</div>
+</div>
+
+<div class="row col-md-12">
+  <div class="col-md-6 mb-5">
+    <a class="btn btnOption pt-4" type="submit" routerLink="/menu-local-descarte">Voltar</a>
+  </div>
+  <div class="col-md-6 mb-5 ">
+    <a class="btn btnOption pt-4">Enviar</a>
+  </div>
+</div>

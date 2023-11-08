@@ -1,0 +1,77 @@
+.fundoTela{
+    background-color: rgba(237, 250, 234, 0.7);
+    border-radius: 10%;
+    width: 741px;
+    padding-bottom: 30px;
+    margin: 50px auto;
+}
+.row{
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+label{
+    color: #7A7A7A;
+}
+
+.checklist{
+    color: #7A7A7A;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #7B7B7B;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+input[type="checkbox"]:checked {
+    background-color: #007bff; 
+    border-color: #007bff;
+}
+
+  
+li{
+    border-radius: 20%;
+}
+
+ul {
+    list-style-type: none;
+    
+  }
+  
+
+.titulo{
+    color: #665A48;
+}
+
+
+.form-control{
+    border: 1px solid #a0a0a0;
+}
+
+
+.fundoTela h4{
+    color: #9F8772;
+}
+.option{
+    color: #7A7A7A;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btnOption{
+    font-size: 35px;
+    color: #7A7A7A;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #F0F0F0;
+    align-items: center;
+    margin-left: 220px;
+}
